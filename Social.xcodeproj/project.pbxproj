@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BD16B63206AAA5F00591114 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD16B62206AAA5F00591114 /* AppDelegate.m */; };
+		1BD16B6E206AAA5F00591114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD16B6C206AAA5F00591114 /* LaunchScreen.storyboard */; };
+		1BD16B71206AAA5F00591114 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD16B70206AAA5F00591114 /* main.m */; };
+		1BD16B7B206AAA5F00591114 /* SocialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD16B7A206AAA5F00591114 /* SocialTests.m */; };
+		1BD16B86206AAA6000591114 /* SocialUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD16B85206AAA6000591114 /* SocialUITests.m */; };
+		1BD16B95206AB2F900591114 /* SCPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD16B94206AB2F900591114 /* SCPost.m */; };
+		1BD16B98206AB35000591114 /* SCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD16B97206AB35000591114 /* SCUser.m */; };
+		1BD16BAB206AB50300591114 /* SCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD16B9A206AB50200591114 /* SCTabBarController.m */; };
+		1BD16BAC206AB50300591114 /* SCCreatePostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD16B9B206AB50200591114 /* SCCreatePostViewController.m */; };
+		1BD16BAD206AB50300591114 /* SCPostDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD16B9C206AB50200591114 /* SCPostDetailViewController.m */; };
+		1BD16BAE206AB50300591114 /* SCSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BD16B9E206AB50200591114 /* SCSignInViewController.xib */; };
+		1BD16BAF206AB50300591114 /* SCExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD16B9F206AB50200591114 /* SCExploreViewController.m */; };
+		1BD16BB0206AB50300591114 /* SCCreatePostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BD16BA1206AB50200591114 /* SCCreatePostViewController.xib */; };
+		1BD16BB1206AB50300591114 /* SCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD16BA2206AB50200591114 /* SCHomeViewController.m */; };
+		1BD16BB2206AB50300591114 /* SCExploreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BD16BA4206AB50200591114 /* SCExploreViewController.xib */; };
+		1BD16BB3206AB50300591114 /* SCPostDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BD16BA7206AB50300591114 /* SCPostDetailViewController.xib */; };
+		1BD16BB4206AB50300591114 /* SCHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BD16BA8206AB50300591114 /* SCHomeViewController.xib */; };
+		1BD16BB5206AB50300591114 /* SCSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD16BAA206AB50300591114 /* SCSignInViewController.m */; };
+		1BD16BBC206AB70F00591114 /* SCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD16BB9206AB70F00591114 /* SCLocationManager.m */; };
+		1BD16BBD206AB70F00591114 /* SCPostManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD16BBA206AB70F00591114 /* SCPostManager.m */; };
+		1BD16BC2206AB74800591114 /* SCHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD16BBF206AB74800591114 /* SCHomeTableViewCell.m */; };
+		1BD16BC3206AB74800591114 /* SCHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BD16BC1206AB74800591114 /* SCHomeTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BD16B77206AAA5F00591114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BD16B56206AAA5F00591114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BD16B5D206AAA5F00591114;
+			remoteInfo = Social;
+		};
+		1BD16B82206AAA6000591114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BD16B56206AAA5F00591114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BD16B5D206AAA5F00591114;
+			remoteInfo = Social;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BD16B5E206AAA5F00591114 /* Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Social.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BD16B61206AAA5F00591114 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BD16B62206AAA5F00591114 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BD16B6D206AAA5F00591114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BD16B6F206AAA5F00591114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BD16B70206AAA5F00591114 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BD16B76206AAA5F00591114 /* SocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BD16B7A206AAA5F00591114 /* SocialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialTests.m; sourceTree = "<group>"; };
+		1BD16B7C206AAA5F00591114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BD16B81206AAA6000591114 /* SocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BD16B85206AAA6000591114 /* SocialUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialUITests.m; sourceTree = "<group>"; };
+		1BD16B87206AAA6000591114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BD16B93206AB2F900591114 /* SCPost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCPost.h; sourceTree = "<group>"; };
+		1BD16B94206AB2F900591114 /* SCPost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCPost.m; sourceTree = "<group>"; };
+		1BD16B96206AB35000591114 /* SCUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCUser.h; sourceTree = "<group>"; };
+		1BD16B97206AB35000591114 /* SCUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCUser.m; sourceTree = "<group>"; };
+		1BD16B9A206AB50200591114 /* SCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCTabBarController.m; path = "../../../../../CS/GeoSocial-master/Social/Social/ViewController/SCTabBarController.m"; sourceTree = "<group>"; };
+		1BD16B9B206AB50200591114 /* SCCreatePostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCCreatePostViewController.m; path = "../../../../../CS/GeoSocial-master/Social/Social/ViewController/SCCreatePostViewController.m"; sourceTree = "<group>"; };
+		1BD16B9C206AB50200591114 /* SCPostDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCPostDetailViewController.m; path = "../../../../../CS/GeoSocial-master/Social/Social/ViewController/SCPostDetailViewController.m"; sourceTree = "<group>"; };
+		1BD16B9D206AB50200591114 /* SCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCTabBarController.h; path = "../../../../../CS/GeoSocial-master/Social/Social/ViewController/SCTabBarController.h"; sourceTree = "<group>"; };
+		1BD16B9E206AB50200591114 /* SCSignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SCSignInViewController.xib; path = "../../../../../CS/GeoSocial-master/Social/Social/ViewController/SCSignInViewController.xib"; sourceTree = "<group>"; };
+		1BD16B9F206AB50200591114 /* SCExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCExploreViewController.m; path = "../../../../../CS/GeoSocial-master/Social/Social/ViewController/SCExploreViewController.m"; sourceTree = "<group>"; };
+		1BD16BA0206AB50200591114 /* SCExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCExploreViewController.h; path = "../../../../../CS/GeoSocial-master/Social/Social/ViewController/SCExploreViewController.h"; sourceTree = "<group>"; };
+		1BD16BA1206AB50200591114 /* SCCreatePostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SCCreatePostViewController.xib; path = "../../../../../CS/GeoSocial-master/Social/Social/ViewController/SCCreatePostViewController.xib"; sourceTree = "<group>"; };
+		1BD16BA2206AB50200591114 /* SCHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHomeViewController.m; path = "../../../../../CS/GeoSocial-master/Social/Social/ViewController/SCHomeViewController.m"; sourceTree = "<group>"; };
+		1BD16BA3206AB50200591114 /* SCCreatePostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCCreatePostViewController.h; path = "../../../../../CS/GeoSocial-master/Social/Social/ViewController/SCCreatePostViewController.h"; sourceTree = "<group>"; };
+		1BD16BA4206AB50200591114 /* SCExploreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SCExploreViewController.xib; path = "../../../../../CS/GeoSocial-master/Social/Social/ViewController/SCExploreViewController.xib"; sourceTree = "<group>"; };
+		1BD16BA5206AB50200591114 /* SCPostDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCPostDetailViewController.h; path = "../../../../../CS/GeoSocial-master/Social/Social/ViewController/SCPostDetailViewController.h"; sourceTree = "<group>"; };
+		1BD16BA6206AB50300591114 /* SCSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCSignInViewController.h; path = "../../../../../CS/GeoSocial-master/Social/Social/ViewController/SCSignInViewController.h"; sourceTree = "<group>"; };
+		1BD16BA7206AB50300591114 /* SCPostDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SCPostDetailViewController.xib; path = "../../../../../CS/GeoSocial-master/Social/Social/ViewController/SCPostDetailViewController.xib"; sourceTree = "<group>"; };
+		1BD16BA8206AB50300591114 /* SCHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SCHomeViewController.xib; path = "../../../../../CS/GeoSocial-master/Social/Social/ViewController/SCHomeViewController.xib"; sourceTree = "<group>"; };
+		1BD16BA9206AB50300591114 /* SCHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHomeViewController.h; path = "../../../../../CS/GeoSocial-master/Social/Social/ViewController/SCHomeViewController.h"; sourceTree = "<group>"; };
+		1BD16BAA206AB50300591114 /* SCSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCSignInViewController.m; path = "../../../../../CS/GeoSocial-master/Social/Social/ViewController/SCSignInViewController.m"; sourceTree = "<group>"; };
+		1BD16BB8206AB70F00591114 /* SCLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLocationManager.h; path = "../../../../../CS/GeoSocial-master/Social/Social/Manager/SCLocationManager.h"; sourceTree = "<group>"; };
+		1BD16BB9206AB70F00591114 /* SCLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLocationManager.m; path = "../../../../../CS/GeoSocial-master/Social/Social/Manager/SCLocationManager.m"; sourceTree = "<group>"; };
+		1BD16BBA206AB70F00591114 /* SCPostManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCPostManager.m; path = "../../../../../CS/GeoSocial-master/Social/Social/Manager/SCPostManager.m"; sourceTree = "<group>"; };
+		1BD16BBB206AB70F00591114 /* SCPostManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCPostManager.h; path = "../../../../../CS/GeoSocial-master/Social/Social/Manager/SCPostManager.h"; sourceTree = "<group>"; };
+		1BD16BBF206AB74800591114 /* SCHomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHomeTableViewCell.m; path = "../../../../../CS/GeoSocial-master/Social/Social/View/SCHomeTableViewCell.m"; sourceTree = "<group>"; };
+		1BD16BC0206AB74800591114 /* SCHomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHomeTableViewCell.h; path = "../../../../../CS/GeoSocial-master/Social/Social/View/SCHomeTableViewCell.h"; sourceTree = "<group>"; };
+		1BD16BC1206AB74800591114 /* SCHomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SCHomeTableViewCell.xib; path = "../../../../../CS/GeoSocial-master/Social/Social/View/SCHomeTableViewCell.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BD16B5B206AAA5F00591114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BD16B73206AAA5F00591114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BD16B7E206AAA6000591114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BD16B55206AAA5F00591114 = {
+			isa = PBXGroup;
+			children = (
+				1BD16B60206AAA5F00591114 /* Social */,
+				1BD16B79206AAA5F00591114 /* SocialTests */,
+				1BD16B84206AAA6000591114 /* SocialUITests */,
+				1BD16B5F206AAA5F00591114 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BD16B5F206AAA5F00591114 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BD16B5E206AAA5F00591114 /* Social.app */,
+				1BD16B76206AAA5F00591114 /* SocialTests.xctest */,
+				1BD16B81206AAA6000591114 /* SocialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BD16B60206AAA5F00591114 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				1BD16BBE206AB72E00591114 /* View */,
+				1BD16BB7206AB6E700591114 /* Manager */,
+				1BD16BB6206AB59400591114 /* Model */,
+				1BD16B99206AB48400591114 /* ViewController */,
+				1BD16B61206AAA5F00591114 /* AppDelegate.h */,
+				1BD16B62206AAA5F00591114 /* AppDelegate.m */,
+				1BD16B6C206AAA5F00591114 /* LaunchScreen.storyboard */,
+				1BD16B6F206AAA5F00591114 /* Info.plist */,
+				1BD16B70206AAA5F00591114 /* main.m */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		1BD16B79206AAA5F00591114 /* SocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BD16B7A206AAA5F00591114 /* SocialTests.m */,
+				1BD16B7C206AAA5F00591114 /* Info.plist */,
+			);
+			path = SocialTests;
+			sourceTree = "<group>";
+		};
+		1BD16B84206AAA6000591114 /* SocialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BD16B85206AAA6000591114 /* SocialUITests.m */,
+				1BD16B87206AAA6000591114 /* Info.plist */,
+			);
+			path = SocialUITests;
+			sourceTree = "<group>";
+		};
+		1BD16B99206AB48400591114 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1BD16BA3206AB50200591114 /* SCCreatePostViewController.h */,
+				1BD16B9B206AB50200591114 /* SCCreatePostViewController.m */,
+				1BD16BA1206AB50200591114 /* SCCreatePostViewController.xib */,
+				1BD16BA0206AB50200591114 /* SCExploreViewController.h */,
+				1BD16B9F206AB50200591114 /* SCExploreViewController.m */,
+				1BD16BA4206AB50200591114 /* SCExploreViewController.xib */,
+				1BD16BA9206AB50300591114 /* SCHomeViewController.h */,
+				1BD16BA2206AB50200591114 /* SCHomeViewController.m */,
+				1BD16BA8206AB50300591114 /* SCHomeViewController.xib */,
+				1BD16BA5206AB50200591114 /* SCPostDetailViewController.h */,
+				1BD16B9C206AB50200591114 /* SCPostDetailViewController.m */,
+				1BD16BA7206AB50300591114 /* SCPostDetailViewController.xib */,
+				1BD16BA6206AB50300591114 /* SCSignInViewController.h */,
+				1BD16BAA206AB50300591114 /* SCSignInViewController.m */,
+				1BD16B9E206AB50200591114 /* SCSignInViewController.xib */,
+				1BD16B9D206AB50200591114 /* SCTabBarController.h */,
+				1BD16B9A206AB50200591114 /* SCTabBarController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1BD16BB6206AB59400591114 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BD16B93206AB2F900591114 /* SCPost.h */,
+				1BD16B94206AB2F900591114 /* SCPost.m */,
+				1BD16B96206AB35000591114 /* SCUser.h */,
+				1BD16B97206AB35000591114 /* SCUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1BD16BB7206AB6E700591114 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1BD16BB8206AB70F00591114 /* SCLocationManager.h */,
+				1BD16BB9206AB70F00591114 /* SCLocationManager.m */,
+				1BD16BBB206AB70F00591114 /* SCPostManager.h */,
+				1BD16BBA206AB70F00591114 /* SCPostManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1BD16BBE206AB72E00591114 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BD16BC0206AB74800591114 /* SCHomeTableViewCell.h */,
+				1BD16BBF206AB74800591114 /* SCHomeTableViewCell.m */,
+				1BD16BC1206AB74800591114 /* SCHomeTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BD16B5D206AAA5F00591114 /* Social */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BD16B8A206AAA6000591114 /* Build configuration list for PBXNativeTarget "Social" */;
+			buildPhases = (
+				1BD16B5A206AAA5F00591114 /* Sources */,
+				1BD16B5B206AAA5F00591114 /* Frameworks */,
+				1BD16B5C206AAA5F00591114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Social;
+			productName = Social;
+			productReference = 1BD16B5E206AAA5F00591114 /* Social.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BD16B75206AAA5F00591114 /* SocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BD16B8D206AAA6000591114 /* Build configuration list for PBXNativeTarget "SocialTests" */;
+			buildPhases = (
+				1BD16B72206AAA5F00591114 /* Sources */,
+				1BD16B73206AAA5F00591114 /* Frameworks */,
+				1BD16B74206AAA5F00591114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BD16B78206AAA5F00591114 /* PBXTargetDependency */,
+			);
+			name = SocialTests;
+			productName = SocialTests;
+			productReference = 1BD16B76206AAA5F00591114 /* SocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BD16B80206AAA6000591114 /* SocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BD16B90206AAA6000591114 /* Build configuration list for PBXNativeTarget "SocialUITests" */;
+			buildPhases = (
+				1BD16B7D206AAA6000591114 /* Sources */,
+				1BD16B7E206AAA6000591114 /* Frameworks */,
+				1BD16B7F206AAA6000591114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BD16B83206AAA6000591114 /* PBXTargetDependency */,
+			);
+			name = SocialUITests;
+			productName = SocialUITests;
+			productReference = 1BD16B81206AAA6000591114 /* SocialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BD16B56206AAA5F00591114 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = liziyi;
+				TargetAttributes = {
+					1BD16B5D206AAA5F00591114 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1BD16B75206AAA5F00591114 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1BD16B5D206AAA5F00591114;
+					};
+					1BD16B80206AAA6000591114 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1BD16B5D206AAA5F00591114;
+					};
+				};
+			};
+			buildConfigurationList = 1BD16B59206AAA5F00591114 /* Build configuration list for PBXProject "Social" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BD16B55206AAA5F00591114;
+			productRefGroup = 1BD16B5F206AAA5F00591114 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BD16B5D206AAA5F00591114 /* Social */,
+				1BD16B75206AAA5F00591114 /* SocialTests */,
+				1BD16B80206AAA6000591114 /* SocialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BD16B5C206AAA5F00591114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD16BC3206AB74800591114 /* SCHomeTableViewCell.xib in Resources */,
+				1BD16BB2206AB50300591114 /* SCExploreViewController.xib in Resources */,
+				1BD16BB3206AB50300591114 /* SCPostDetailViewController.xib in Resources */,
+				1BD16B6E206AAA5F00591114 /* LaunchScreen.storyboard in Resources */,
+				1BD16BAE206AB50300591114 /* SCSignInViewController.xib in Resources */,
+				1BD16BB0206AB50300591114 /* SCCreatePostViewController.xib in Resources */,
+				1BD16BB4206AB50300591114 /* SCHomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BD16B74206AAA5F00591114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BD16B7F206AAA6000591114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BD16B5A206AAA5F00591114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD16BB5206AB50300591114 /* SCSignInViewController.m in Sources */,
+				1BD16BAF206AB50300591114 /* SCExploreViewController.m in Sources */,
+				1BD16BAC206AB50300591114 /* SCCreatePostViewController.m in Sources */,
+				1BD16B71206AAA5F00591114 /* main.m in Sources */,
+				1BD16B63206AAA5F00591114 /* AppDelegate.m in Sources */,
+				1BD16B95206AB2F900591114 /* SCPost.m in Sources */,
+				1BD16BB1206AB50300591114 /* SCHomeViewController.m in Sources */,
+				1BD16BBC206AB70F00591114 /* SCLocationManager.m in Sources */,
+				1BD16BAB206AB50300591114 /* SCTabBarController.m in Sources */,
+				1BD16BBD206AB70F00591114 /* SCPostManager.m in Sources */,
+				1BD16BC2206AB74800591114 /* SCHomeTableViewCell.m in Sources */,
+				1BD16B98206AB35000591114 /* SCUser.m in Sources */,
+				1BD16BAD206AB50300591114 /* SCPostDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BD16B72206AAA5F00591114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD16B7B206AAA5F00591114 /* SocialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BD16B7D206AAA6000591114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD16B86206AAA6000591114 /* SocialUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BD16B78206AAA5F00591114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BD16B5D206AAA5F00591114 /* Social */;
+			targetProxy = 1BD16B77206AAA5F00591114 /* PBXContainerItemProxy */;
+		};
+		1BD16B83206AAA6000591114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BD16B5D206AAA5F00591114 /* Social */;
+			targetProxy = 1BD16B82206AAA6000591114 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BD16B6C206AAA5F00591114 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BD16B6D206AAA5F00591114 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BD16B88206AAA6000591114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1BD16B89206AAA6000591114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BD16B8B206AAA6000591114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ND26PX2XKR;
+				INFOPLIST_FILE = Social/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liziyi.Social;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BD16B8C206AAA6000591114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ND26PX2XKR;
+				INFOPLIST_FILE = Social/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liziyi.Social;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1BD16B8E206AAA6000591114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ND26PX2XKR;
+				INFOPLIST_FILE = SocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liziyi.SocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Social.app/Social";
+			};
+			name = Debug;
+		};
+		1BD16B8F206AAA6000591114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ND26PX2XKR;
+				INFOPLIST_FILE = SocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liziyi.SocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Social.app/Social";
+			};
+			name = Release;
+		};
+		1BD16B91206AAA6000591114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ND26PX2XKR;
+				INFOPLIST_FILE = SocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liziyi.SocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Social;
+			};
+			name = Debug;
+		};
+		1BD16B92206AAA6000591114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ND26PX2XKR;
+				INFOPLIST_FILE = SocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liziyi.SocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Social;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BD16B59206AAA5F00591114 /* Build configuration list for PBXProject "Social" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BD16B88206AAA6000591114 /* Debug */,
+				1BD16B89206AAA6000591114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BD16B8A206AAA6000591114 /* Build configuration list for PBXNativeTarget "Social" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BD16B8B206AAA6000591114 /* Debug */,
+				1BD16B8C206AAA6000591114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BD16B8D206AAA6000591114 /* Build configuration list for PBXNativeTarget "SocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BD16B8E206AAA6000591114 /* Debug */,
+				1BD16B8F206AAA6000591114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BD16B90206AAA6000591114 /* Build configuration list for PBXNativeTarget "SocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BD16B91206AAA6000591114 /* Debug */,
+				1BD16B92206AAA6000591114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BD16B56206AAA5F00591114 /* Project object */;
+}
