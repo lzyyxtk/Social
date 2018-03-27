@@ -6,15 +6,16 @@
 //  Copyright © 2018 liziyi. All rights reserved.
 //
 
+
+
 #import "SCPost.h"
-#import <MapKit/MapKit.h>
 
 @implementation SCPost
 
 - (instancetype)initWithDictionary:(NSDictionary *)dict
 {
     if (self = [super init]) {
-        self.username = dict[@"user"];
+        self.name = dict[@"user"];
         self.message = dict[@"message"];
         CLLocationDegrees latitute = [dict[@"location"][@"lat"] doubleValue];
         CLLocationDegrees longtitude = [dict[@"location"][@"lon"] doubleValue];
@@ -23,6 +24,8 @@
     }
     return nil;
 }
+
+
 
 @end
 

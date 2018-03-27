@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SCSignInViewController">
+            <connections>
+                <outlet property="nameField" destination="sCd-hH-Vuo" id="Z0m-ob-W3E"/>
+                <outlet property="passwordField" destination="ZkT-Fl-gXI" id="ddY-vj-ynr"/>
+                <outlet property="signInButton" destination="UhB-Jl-rQS" id="2l6-ua-Tyn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sCd-hH-Vuo">
+                    <rect key="frame" x="62.5" y="70" width="250" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="250" id="kSj-KT-ORS"/>
+                        <constraint firstAttribute="height" constant="40" id="xx1-54-Pbh"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZkT-Fl-gXI">
+                    <rect key="frame" x="62.5" y="130" width="250" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="250" id="apJ-fT-CmW"/>
+                        <constraint firstAttribute="height" constant="40" id="dR3-xH-cUI"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UhB-Jl-rQS">
+                    <rect key="frame" x="62" y="195" width="250" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="1fl-b9-9iq"/>
+                        <constraint firstAttribute="width" constant="250" id="4Jt-eL-y3C"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                    <state key="normal" title="Sign in"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ZkT-Fl-gXI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6PU-pG-yx8"/>
+                <constraint firstItem="ZkT-Fl-gXI" firstAttribute="top" secondItem="sCd-hH-Vuo" secondAttribute="bottom" constant="20" id="HTM-CO-BQP"/>
+                <constraint firstItem="sCd-hH-Vuo" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="50" id="XII-Jc-djI"/>
+                <constraint firstItem="UhB-Jl-rQS" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="erC-gY-9yp"/>
+                <constraint firstItem="UhB-Jl-rQS" firstAttribute="top" secondItem="ZkT-Fl-gXI" secondAttribute="bottom" constant="25" id="glz-Pq-iJW"/>
+                <constraint firstItem="sCd-hH-Vuo" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="t2W-uU-yFo"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>

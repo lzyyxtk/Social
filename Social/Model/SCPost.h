@@ -6,17 +6,18 @@
 //  Copyright © 2018 liziyi. All rights reserved.
 //
 
+
 #import <Foundation/Foundation.h>
-@class CLLocation;
+#import <CoreLocation/CoreLocation.h>
 
 @interface SCPost : NSObject
 
-@property(nonatomic,copy) NSString *message;
-@property(nonatomic) NSString *username;
-@property (nonatomic)  CLLocation *location;
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *message;
+@property (nonatomic, strong) NSDate *postDate;
+@property (nonatomic, strong) CLLocation *location;
 
-- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+- (instancetype)initWithDictionary:(NSDictionary *)dict;
 
 @end
-
 
