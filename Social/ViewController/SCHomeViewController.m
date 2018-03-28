@@ -2,11 +2,9 @@
 //  SCHomeViewController.m
 //  Social
 //
-//  Created by Lee Frank on 3/23/18.
+//  Created by Lee Frank on 3/27/18.
 //  Copyright © 2018 liziyi. All rights reserved.
 //
-
-
 
 
 
@@ -22,7 +20,7 @@
 #import "SCPostDetailViewController.h"
 #import <MapKit/MapKit.h>
 
-static NSString * const SCHomeCellIdentifier = @"SCHomeCellIdentifier";
+static NSString * const SCHomeCellIdentifier = @"homeCellIdentifier";
 
 @interface SCHomeViewController ()<UITableViewDelegate, UITableViewDataSource, SCCreatePostViewControllerDelegate>
 
@@ -57,14 +55,12 @@ static NSString * const SCHomeCellIdentifier = @"SCHomeCellIdentifier";
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loadPosts) name:SCLocationUpdateNotification object:nil];
 }
 
-
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
     // check user login or not
     [self userLoginIfRequire];
 }
-
 
 - (void)dealloc
 {
@@ -135,7 +131,7 @@ static NSString * const SCHomeCellIdentifier = @"SCHomeCellIdentifier";
 - (void)setupRefreshControlUI
 {
     self.refreshControl = [UIRefreshControl new];
-    self.refreshControl.tintColor = [UIColor blackColor];
+    self.refreshControl.tintColor = [UIColor grayColor];
     [self.refreshControl addTarget:self action:@selector(loadPosts) forControlEvents:UIControlEventValueChanged];
     [self.tableView addSubview:self.refreshControl];
 }
@@ -154,18 +150,6 @@ static NSString * const SCHomeCellIdentifier = @"SCHomeCellIdentifier";
     __weak typeof(self) weakSelf = self;
     CLLocation *location = [[SCLocationManager sharedManager] getUserCurrentLocation];
     NSInteger range = 30000;
-    //    void (^completionBlock)(NSArray<SCPost *> *posts, NSError *error) = ^void(NSArray<SCPost *> *posts, NSError *error) {
-    //        if (posts) {
-    //            weakSelf.posts = posts;
-    //            [weakSelf.tableView reloadData];
-    //            NSLog(@"get posts count:%ld", (long)posts.count);
-    //        }
-    //        else {
-    //            NSLog(@"error: %@", error);
-    //        }
-    //
-    //    };
-    //    [SCPostManager getPostsWithLocation:location range:range andCompletion:completionBlock];
     [SCPostManager getPostsWithLocation:location range:range andCompletion:^(NSArray<SCPost *> *posts, NSError *error) {
         if (posts) {
             weakSelf.posts = posts;
@@ -177,7 +161,6 @@ static NSString * const SCHomeCellIdentifier = @"SCHomeCellIdentifier";
         }
     }];
     [self.refreshControl endRefreshing];
-    
 }
 
 #pragma mark - SCCreatePostViewControllerDelegate
@@ -223,3 +206,5 @@ static NSString * const SCHomeCellIdentifier = @"SCHomeCellIdentifier";
     }
 }
 @end
+
+

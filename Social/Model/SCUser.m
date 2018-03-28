@@ -38,6 +38,3 @@ static NSString * const SCIsUserSignIn = @"SCIsUserSignIn";
 }
 
 @end
-
-
-
